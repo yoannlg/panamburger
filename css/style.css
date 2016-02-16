@@ -1,5 +1,32 @@
-.main-content-container-instagram-line-one img {
-	width: 70px;
-	height: 70px;
+
+
+.main-content-container-instagram-title {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	z-index: 1;
+    }
+.main-content-container-instagram-title h2 {
+ 	text-align: center;
+ 	padding-left: 52%;
+ 	color:white;
+ 	padding-top:19%;
+}
+
+.main-content-container-instagram-line-one {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: absolute;
+	z-index: 0;
 
 }
+
+
+.main-content-container-instagram-line-one img {
+	width: 200px;
+	height: 200px;
+
+}
+
