@@ -1,3 +1,4 @@
+
 footer {
 	display: flex;
 	justify-content: center;
@@ -9,4 +10,42 @@ footer {
 
 .fa {
 	color: black;
+
+}
+
+.main-content-container-instagram-title {
+	display: flex;
+	justify-content: center;
+	font-size: 2em;
+	font-family: 'Slabo 27px', serif;
+	color:grey;
+    }
+
+
+.main-content-container-instagram-line-one {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+.main-content-container-instagram-line-one img {
+	width: 200px;
+	height: 200px;
+ -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
+
+}
+.main-content-container-instagram-line-one img:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity: 1.3 ;
 }
