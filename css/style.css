@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+h1, h2, h3, h4 {
+  font-family: 'Slabo 27px', serif;
+}
+
+
+>>>>>>> Main1
 .main-content-index {
   display: flex;
   flex-wrap: nowrap;
@@ -41,7 +49,10 @@
   text-align: right;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Main1
 footer {
 	display: flex;
 	justify-content: center;
