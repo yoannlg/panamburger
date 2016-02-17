@@ -72,8 +72,6 @@
 
 
 
-=======
-
 h1, h2, h3, h4 {
   font-family: 'Slabo 27px', serif;
 }
@@ -117,26 +115,26 @@ h1, h2, h3, h4 {
 
 
 .main-content-container-instagram-title {
-	display: flex;
-	justify-content: center;
-	font-size: 2em;
-	font-family: 'Slabo 27px', serif;
-	color:grey;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Slabo 27px', serif;
+    color:grey;
     }
 
 
 .main-content-container-instagram-line-one {
-	display: flex;
-	align-items: stretch;
-	flex-wrap: wrap;
-	justify-content: center;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 
 .main-content-container-instagram-line-one img {
-	width: 200px;
-	height: 200px;
+    width: 200px;
+    height: 200px;
  -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -154,15 +152,14 @@ h1, h2, h3, h4 {
 }
 
 footer {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	/*border: 2px solid green;*/
-	padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /*border: 2px solid green;*/
+    padding-top: 10px;
 }
 
 .fa {
-	color: black;
+    color: black;
 }
->>>>>>> a3caae965ef81f7f8716aab4624ffe80dbb3c65c
