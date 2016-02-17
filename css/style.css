@@ -93,9 +93,17 @@ footer {
 
 					/*MEDIA QUERIES */
 
+@media screen and (max-width: 980px)
+{    
+		/*MAIN 2*/
 
-			/*MAIN 2*/
+    .main-content-container-instagram-line-one{
 
-	.main-content-container-instagram-line-one{
-
+    		display: none;
 	}
+
+}
+		
+
+
+	
