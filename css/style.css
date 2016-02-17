@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
+
 h1, h2, h3, h4 {
   font-family: 'Slabo 27px', serif;
 }
 
-
->>>>>>> Main1
 .main-content-index {
   display: flex;
   flex-wrap: nowrap;
@@ -22,9 +19,6 @@ h1, h2, h3, h4 {
   height: 367px;
 }
 
-.main-content-index {
-  /*background-color: red;*/
-}
 .main-content-container-left {
   color: white;
   background-color: coral;
@@ -49,10 +43,6 @@ h1, h2, h3, h4 {
   text-align: right;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> Main1
 footer {
 	display: flex;
 	justify-content: center;
