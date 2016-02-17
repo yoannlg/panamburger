@@ -3,23 +3,17 @@
 .main-content-container-instagram-title {
 	display: flex;
 	justify-content: center;
-	position: absolute;
-	z-index: 1;
+	font-size: 2em;
+	font-family: 'Slabo 27px', serif;
+	color:grey;
     }
-.main-content-container-instagram-title h2 {
- 	text-align: center;
- 	padding-left: 52%;
- 	color:white;
- 	padding-top:19%;
-}
+
 
 .main-content-container-instagram-line-one {
 	display: flex;
 	align-items: stretch;
 	flex-wrap: wrap;
 	justify-content: center;
-	position: absolute;
-	z-index: 0;
 
 }
 
@@ -27,6 +21,19 @@
 .main-content-container-instagram-line-one img {
 	width: 200px;
 	height: 200px;
+ -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.8;
 
 }
+.main-content-container-instagram-line-one img:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity: 1.3 ;
 
+}
